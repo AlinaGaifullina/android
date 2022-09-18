@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="Counter">Counter</string>
+    <string name="Color">Color</string>
+    <string name="ToNextFragment">To Next Fragment</string>
 </resources>
