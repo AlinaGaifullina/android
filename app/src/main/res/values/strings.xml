@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="button">ЖМАК</string>
+    <string name="editText1">Будьте добры, введите номер телефона</string>
+    <string name="editText2">Введите больше 5-ти символов, пожалуйста</string>
 </resources>
