@@ -34,14 +34,14 @@ class FirstFragment : Fragment() {
             adapter = DogAdapter(
                 dogs = DogRepository.dogs,
                 glide = Glide.with(binding.root.context),
-                onItemClick = ::onPlanetItemWasClicked
+                onItemClick = ::onDogItemWasClicked
             )
             rvDog.adapter = adapter
         }
     }
 
 
-    private fun onPlanetItemWasClicked(itemPosition: Int) {
+    private fun onDogItemWasClicked(itemPosition: Int) {
 
         DogRepository.dogs[itemPosition].colorID = R.color.gray
 
