@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/AFragment">
+
+    <fragment
+        android:id="@+id/AFragment"
+        android:name="com.example.myapplication.fragments_a.AFragment"
+        android:label="AFragment" >
+        <action
+            android:id="@+id/action_AFragment_to_a2Fragment"
+            app:destination="@id/a2Fragment"
+            app:popUpTo="@id/main_graph" />
+    </fragment>
+    <fragment
+        android:id="@+id/a2Fragment"
+        android:name="com.example.myapplication.fragments_a.A2Fragment"
+        android:label="A2Fragment" >
+        <action
+            android:id="@+id/action_a2Fragment_to_a3Fragment"
+            app:destination="@id/a3Fragment"
+            app:popUpTo="@id/main_graph" />
+    </fragment>
+    <fragment
+        android:id="@+id/a3Fragment"
+        android:name="com.example.myapplication.fragments_a.A3Fragment"
+        android:label="A3Fragment" />
+    <fragment
+        android:id="@+id/BFragment"
+        android:name="com.example.myapplication.fragments_b.BFragment"
+        android:label="BFragment" >
+        <action
+            android:id="@+id/action_BFragment_to_b2Fragment"
+            app:destination="@id/b2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/b2Fragment"
+        android:name="com.example.myapplication.fragments_b.B2Fragment"
+        android:label="B2Fragment" />
+    <fragment
+        android:id="@+id/CFragment"
+        android:name="com.example.myapplication.fragments_c.CFragment"
+        android:label="CFragment" >
+        <action
+            android:id="@+id/action_CFragment_to_c2Fragment"
+            app:destination="@id/c2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/c2Fragment"
+        android:name="com.example.myapplication.fragments_c.C2Fragment"
+        android:label="C2Fragment" >
+        <action
+            android:id="@+id/action_c2Fragment_to_c3Fragment"
+            app:destination="@id/c3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/c3Fragment"
+        android:name="com.example.myapplication.fragments_c.C3Fragment"
+        android:label="C3Fragment" />
+    <fragment
+        android:id="@+id/bottomSheetDialogFragment"
+        android:name="com.example.myapplication.BottomSheetDialogFragment"
+        android:label="BottomSheetDialogFragment" >
+        <action
+            android:id="@+id/action_bottomSheetDialogFragment_to_b2Fragment"
+            app:destination="@id/b2Fragment" />
+        <action
+            android:id="@+id/action_bottomSheetDialogFragment_to_c2Fragment"
+            app:destination="@id/c2Fragment" />
+        <action
+            android:id="@+id/action_bottomSheetDialogFragment_to_a3Fragment"
+            app:destination="@id/a3Fragment" />
+    </fragment>
+</navigation>

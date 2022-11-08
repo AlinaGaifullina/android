@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/AFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="A" />
+
+    <item
+        android:id="@+id/BFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_wb_sunny_24"
+        android:title="B" />
+
+    <item
+        android:id="@+id/CFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_extension_24"
+        android:title="C" />
+
+    <item
+        android:id="@+id/bottomSheetDialogFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_emoji_emotions_24"
+        android:title="D" />
+</menu>
