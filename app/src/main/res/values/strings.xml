@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">My Application</string>
+
+    <string name="start_service">Запуск сервиса</string>
+    <string name="download_image">Загрузка изображения</string>
+    <string name="show_image">Показ изображения</string>
+    <string name="stop_service">Остановка работы сервиса</string>
+
+    <string name="content">Контент</string>
+
+    <string name="channel_name">Notification channel</string>
+    <string name="channel_description">Description</string>
+
+    <string name="service_success">Сервис запущен</string>
+    <string name="service_not_running_error">Запустите сервис, чтобы выполнить это действие!</string>
+    <string name="service_is_running_error">Сервис уже запущен!</string>
+    <string name="cancel_service_success">Работа севиса остановлена</string>
+
+    <string name="download_success">Изображение загружено</string>
+    <string name="download_fail">Не получилось загрузить изображение</string>
+    <string name="download_error">Сначала загрузите изображение!</string>
+
+    <string-array name="img_array">
+        <item>@string/img_url1</item>
+        <item>@string/img_url2</item>
+        <item>@string/img_url3</item>
+        <item>@string/img_url4</item>
+        <item>@string/img_url5</item>
+    </string-array>
+
+    <string name="img_url1">https://krasivosti.pro/uploads/posts/2022-09/1662587748_28-krasivosti-pro-p-zheltie-popugai-pinterest-42.jpg</string>
+    <string name="img_url2">https://vraki.net/sites/default/files/inline/images/6_14.jpg</string>
+    <string name="img_url3">https://krot.info/uploads/posts/2022-03/1646919560_51-krot-info-p-popugai-mem-smeshnie-foto-59.jpg</string>
+    <string name="img_url4">https://i.pinimg.com/originals/ea/c1/85/eac185f88cbe763c7a8ae87593bd05c2.jpg</string>
+    <string name="img_url5">https://bigpicture.ru/wp-content/uploads/2019/05/IMG_7276.jpg</string>
+
 </resources>
